@@ -1,0 +1,112 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.lemurianstudios.com/services/website-design-tucson-az#service",
+      "name": "Website design in Tucson, AZ",
+      "serviceType": "Web design",
+      "url": "https://www.lemurianstudios.com/services/website-design-tucson-az",
+      "description": "Website designers for Tucson, Arizona businesses. We design and build custom sites, brands and 3D animation.",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://www.lemurianstudios.com/#organization",
+        "name": "Lemurian Studios",
+        "legalName": "Auxelerate LLC",
+        "url": "https://www.lemurianstudios.com",
+        "email": "sam@lemurianstudios.com"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Tucson, Arizona",
+          "sameAs": "https://www.wikidata.org/wiki/Q18575"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Pima County, Arizona"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Services for Tucson businesses",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Website design",
+              "url": "https://www.lemurianstudios.com/services/web-design"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Small business web design",
+              "url": "https://www.lemurianstudios.com/services/small-business-web-design"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Brand identity design",
+              "url": "https://www.lemurianstudios.com/services/brand-identity"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "3D design and animation",
+              "url": "https://www.lemurianstudios.com/services/3d-design"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.lemurianstudios.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Web design",
+          "item": "https://www.lemurianstudios.com/services/web-design"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Web design in Arizona",
+          "item": "https://www.lemurianstudios.com/services/web-design-arizona"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Tucson, AZ",
+          "item": "https://www.lemurianstudios.com/services/website-design-tucson-az"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can I change my seasonal hours and offers myself?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can. Everything that changes with the season goes in fields you can edit in Framer, so a winter menu or summer hours take minutes, not a call to us."
+          }
+        }
+      ]
+    }
+  ]
+}
